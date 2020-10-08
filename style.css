@@ -1,0 +1,64 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+h1, h3{
+    font-weight: 800;
+}
+
+a{
+    color: white!important;
+}
+.fa{
+    font-size: 2rem;
+    color: white;
+}
+.light-weight{
+    font-weight: 200;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.active{
+    border-bottom: 1px solid white;
+    font-weight: 800;
+    transition: all ease-in-out .10s;
+}
+.btn-main{
+    padding: 5px 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 800;
+}
+.btn-main:hover{
+    background-color: turquoise;
+    color: white;
+}
+.switch{
+    padding: .5rem 2rem;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.switch:hover{
+    background-color: white;
+    color:  rgb(41, 41, 41);
+}
+.fa-youtube-play, .fa-facebook-official, .fa-instagram{
+    padding: .5rem;
+    cursor: pointer;
+}
+@media (max-width: 991px){
+    
+    .nav-link{
+        border-bottom: 1px solid wheat;
+    }
+    .navbar{
+        text-align: center;
+    }
+}
+    
+    
